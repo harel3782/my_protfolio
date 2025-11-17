@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harel Mashiah - Software Engineering Student</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom configuration for Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary-blue': '#4F46E5', // Indigo-700
+                        'secondary-gray': '#1F2937', // Gray-800
+                        'tertiary-bg': '#0F172A', // Slate-900 for dark background
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Use Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Icon library (lucide icons) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-tertiary-bg text-gray-100 font-sans min-h-screen flex items-center justify-center p-4">
+
+    <!-- Main Container Card -->
+    <div class="max-w-4xl w-full bg-secondary-gray shadow-2xl rounded-xl overflow-hidden my-8 p-6 md:p-10 border border-gray-700/50">
+
+        <!-- Header Section: Profile and Intro -->
+        <header class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8 pb-8 border-b border-gray-700">
+            
+            <!-- Profile Image (Replace with your actual image URL) -->
+            <div class="relative w-32 h-32 flex-shrink-0">
+                <img 
+                    src="https://placehold.co/128x128/334155/ffffff?text=HM" 
+                    onerror="this.onerror=null;this.src='https://placehold.co/128x128/334155/ffffff?text=HM';"
+                    alt="Harel Mashiah Profile Picture" 
+                    class="rounded-full object-cover w-full h-full border-4 border-primary-blue shadow-lg transition duration-300 hover:scale-105"
+                >
+            </div>
+
+            <!-- Text Content -->
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl font-extrabold text-white mb-1">Harel Mashiah</h1>
+                <h2 class="text-xl font-semibold text-primary-blue">Software Engineering Student | Future Innovator</h2>
+                <p class="text-gray-400 mt-3 max-w-lg">
+                    Building scalable applications and exploring the intersection of AI and web development. Passionate about clean code and continuous learning.
+                </p>
+            </div>
+        </header>
+
+        <!-- Main Content: Projects and Links -->
+        <main class="pt-8">
+
+            <!-- Call to Action / Core Links -->
+            <section class="mb-10">
+                <h3 class="text-2xl font-bold text-white mb-4 border-b border-gray-800 pb-2">Connect With Me</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    
+                    <!-- GitHub Button -->
+                    <a href="https://github.com/your-username" target="_blank" class="flex items-center justify-center p-4 bg-gray-700 hover:bg-primary-blue transition duration-200 rounded-lg shadow-md text-white font-medium group">
+                        <i data-lucide="github" class="w-5 h-5 mr-3 group-hover:rotate-6 transition duration-300"></i>
+                        GitHub Profile
+                    </a>
+
+                    <!-- LinkedIn Button -->
+                    <a href="https://linkedin.com/in/your-username" target="_blank" class="flex items-center justify-center p-4 bg-gray-700 hover:bg-primary-blue transition duration-200 rounded-lg shadow-md text-white font-medium group">
+                        <i data-lucide="linkedin" class="w-5 h-5 mr-3 group-hover:scale-110 transition duration-300"></i>
+                        LinkedIn
+                    </a>
+
+                    <!-- Email/Contact Button -->
+                    <a href="mailto:your.email@example.com" class="flex items-center justify-center p-4 bg-gray-700 hover:bg-primary-blue transition duration-200 rounded-lg shadow-md text-white font-medium group">
+                        <i data-lucide="mail" class="w-5 h-5 mr-3 group-hover:-translate-y-0.5 transition duration-300"></i>
+                        Send Me an Email
+                    </a>
+                </div>
+            </section>
+
+            <!-- Projects/Skills Overview Section -->
+            <section>
+                <h3 class="text-2xl font-bold text-white mb-4 border-b border-gray-800 pb-2">Key Projects & Skills</h3>
+                
+                <div class="space-y-6">
+                    <!-- Placeholder Card for Future Projects -->
+                    <div class="p-6 bg-gray-800 rounded-lg border-2 border-dashed border-gray-700 text-center text-gray-400 flex flex-col items-center">
+                        <i data-lucide="monitor" class="w-8 h-8 mb-3 text-primary-blue"></i>
+                        <p class="text-lg font-medium">Your Projects Start Here!</p>
+                        <p class="text-sm mt-1 max-w-lg">
+                            As you complete assignments, hackathons, or personal prototypes, you can easily add them below. 
+                            This section is ready for you to showcase your journey.
+                        </p>
+                    </div>
+                    <!-- This is where Project Card 1 and 2 used to be. -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-10 pt-6 border-t border-gray-700 text-center text-sm text-gray-500">
+            <p>&copy; 2025 Harel Mashiah. Built with <i data-lucide="heart" class="w-4 h-4 inline text-red-500"></i> and Tailwind CSS.</p>
+        </footer>
+        
+    </div>
+
+    <!-- Script to initialize Lucide icons -->
+    <script>
+        // Find all elements with the 'data-lucide' attribute and replace them with SVG icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
