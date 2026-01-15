@@ -16,23 +16,23 @@ I am a motivated Computer Science student (GPA: 88) with a strong passion for so
 
 ### 🚀 Featured Projects
 
-#### ♟️ Duck Chess Engine
+#### ♟️ [Duck Chess Engine](https://github.com/harel3782/duck_chess)
 *A chess engine variant implementation.*
-* **Tech:** C++, Python, Pygame, Reinforcement Learning concepts.
-* **Description:** Built a custom chess engine for the "Duck Chess" variant. The project involves a C++ backend for move generation and evaluation, integrated with a Python (Pygame) frontend UI.
-* [Link to Repository](LINK_HERE)
+* **Tech:** Python, Pygame, (C++ & RL planned).
+* **Description:** Built a custom chess engine for the "Duck Chess" variant. Currently features a fully functional UI and rule enforcement, serving as the foundation for a future C++ Reinforcement Learning engine.
+* [View Repository](https://github.com/harel3782/duck_chess)
 
-#### 🏀 NBA Prediction App
+#### 🏀 [NBA Prediction App](https://github.com/harel3782/nba-app)
 *A web application for predicting NBA game outcomes.*
 * **Tech:** React, Supabase, Capacitor (Mobile).
-* **Description:** Developed a full-stack application allows users to make friendly bets and predictions on NBA games.
-* [Link to Repository](LINK_HERE)
+* **Description:** Developed a full-stack application that allows users to make friendly bets and predictions on NBA games, featuring user authentication and real-time data handling.
+* [View Repository](https://github.com/harel3782/nba-app)
 
-#### 🐍 Snake Game
-*Classic Snake game for the web.*
+#### 🐍 [Neo Snake](https://github.com/harel3782/neo-snake)
+*A modern take on the classic Snake game.*
 * **Tech:** React, Tailwind CSS.
-* **Description:** A modern implementation of the classic game, deployed on GitHub Pages.
-* [Link to Repository](https://harel3782.github.io/YOUR_REPO_NAME)
+* **Description:** A polished implementation of the classic game with a modern UI, fully playable in the browser.
+* [View Repository](https://github.com/harel3782/neo-snake)
 
 ---
 
