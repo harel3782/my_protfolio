@@ -10,7 +10,7 @@ I am a motivated Computer Science student (GPA: 88) with a strong passion for so
 
 * **Languages:** Java, Python, C, C++, JavaScript, SQL
 * **Web Development:** React, Node.js, HTML/CSS, Tailwind CSS
-* **Tools & Concepts:** Git, Linux, OOP, Data Structures, Algorithms, Parallel Computing (MPI)
+* **Tools & Concepts:** Git, Linux, OOP, Data Structures, Algorithms
 
 ---
 
