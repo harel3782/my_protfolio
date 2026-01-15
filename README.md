@@ -2,7 +2,7 @@
 
 **Software Engineering Student | 3rd Year at Afeka College of Engineering**
 
-I am a motivated Computer Science student (GPA: 88) with a strong passion for solving algorithmic challenges and building full-stack applications. I enjoy diving deep into low-level programming with C++ as much as creating interactive web apps with React.
+I am a motivated Computer Science student (GPA: 88) with a strong passion for solving algorithmic challenges and building full-stack applications.
 
 ---
 
