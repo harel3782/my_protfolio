@@ -1,2 +1,2 @@
 # my_protfolio
-<img src="Harel Mashiah.png" />
+<img src="Harel_Mashiah.png" />
