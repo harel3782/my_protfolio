@@ -47,6 +47,6 @@ I am a motivated Computer Science student (GPA: 88) with a strong passion for so
 
 ### 📫 Connect with Me
 
-* [LinkedIn](https://www.linkedin.com/in/Harel-Mashiah)
+* [LinkedIn](https://www.linkedin.com/in/HarelMashiah)
 * [Email](mailto:harel.mashiah@gmail.com)
 * [Portfolio Website](https://harel3782.github.io/)
