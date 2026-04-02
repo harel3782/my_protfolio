@@ -28,12 +28,6 @@ I am a motivated Computer Science student (GPA: 88) with a strong passion for so
 * **Description:** Developed a full-stack application that allows users to make friendly bets and predictions on NBA games, featuring user authentication and real-time data handling.
 * [View Repository](https://github.com/harel3782/nba-app)
 
-#### 🐍 [Neo Snake](https://github.com/harel3782/neo-snake)
-*A modern take on the classic Snake game.*
-* **Tech:** React, Tailwind CSS.
-* **Description:** A polished implementation of the classic game with a modern UI, fully playable in the browser.
-* [View Repository](https://github.com/harel3782/neo-snake)
-
 ---
 
 ### 📚 Education & Achievements
